@@ -60,7 +60,7 @@ Hoje, boa parte dos conteúdos sobre o Sistema Solar é estática (imagens e tex
 
 ### 4.6 Qualidade mínima
 - Aplicação responsiva para desktop e tablet.
-- Performance alvo: experiência fluida em hardware comum (meta de 30+ FPS em desktop mediano).
+- Performance alvo: 30+ FPS em desktop com configuração mínima de referência (CPU 4 núcleos, 8 GB RAM, GPU integrada equivalente a Intel Iris Xe/AMD Vega 8), em 1920x1080 com configurações visuais padrão.
 
 ---
 
