@@ -49,7 +49,7 @@ Hoje, boa parte dos conteúdos sobre o Sistema Solar é estática (imagens e tex
 ### 4.4 Dinâmica visual mínima
 - Movimento orbital simplificado (não precisa ser fisicamente preciso).
 - Rotação própria simplificada (opcional por corpo, mas desejável para os principais).
-- Controle global de velocidade da simulação (pausar/retomar e 2 velocidades).
+- Controle global de velocidade da simulação (pausar/retomar e dois níveis de velocidade: 1x (normal) e 2x (acelerado)).
 
 ### 4.5 UI essencial
 - Tela inicial com CTA “Iniciar exploração”.
