@@ -77,7 +77,7 @@ Hoje, boa parte dos conteúdos sobre o Sistema Solar é estática (imagens e tex
 
 ## 6) Requisitos não funcionais
 - Stack web moderna com renderização 3D no navegador (ex.: Three.js).
-- Carregamento inicial objetivo: < 5s em conexão razoável (otimização progressiva).
+- Carregamento inicial objetivo: < 5s em rede 4G (aprox. 10 Mbps de download, 2 Mbps de upload e ~50 ms de latência), com otimização progressiva.
 - Código organizado para permitir evolução posterior (ex.: adicionar luas e missões).
 - Telemetria básica opcional para medir uso de interação (sem PII no MVP).
 
