@@ -193,3 +193,5 @@ Hoje, boa parte dos conteúdos sobre o Sistema Solar é estática (imagens e tex
 
 ## 11) Definição de pronto do MVP
 O MVP é considerado pronto quando os critérios da seção 7 forem cumpridos e as issues críticas (1, 3, 6, 7, 9, 10, 11, 12, 13, 16) estiverem concluídas.
+- **Criticidade (bloqueiam entrega do MVP):** itens que garantem o valor central de exploração 3D funcional com interação mínima completa (cena base, navegação essencial, seleção, dataset, painel, HUD, simulação de tempo/órbita e validação final de aceite).
+- **Não críticas para aceite inicial (2, 4, 5, 8, 14, 15):** melhorias de fidelidade visual, profundidade de câmera, trajetórias orbitais, foco automático, responsividade avançada e otimização de performance; agregam qualidade, mas não impedem o objetivo principal do MVP descrito na seção 1.
