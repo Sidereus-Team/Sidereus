@@ -1,0 +1,28 @@
+name: Atualizar Status no Project quando Issue for Atribuída
+
+on:
+  issues:
+    types: [assigned]   # Dispara só quando alguém é atribuído à issue
+
+jobs:
+  update-project-status:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Garante que a issue esteja no Project (se ainda não estiver, adiciona)
+      - name: Adicionar issue ao Project (se necessário)
+        uses: actions/add-to-project@v1
+        with:
+          project-url: https://github.com/orgs/Sidereus-Team/projects/1
+          # Exemplo: https://github.com/users/voiwd/projects/1
+          # ou para organização: https://github.com/orgs/NOME_ORG/projects/5
+          github-token: ${{ secrets.PROJECT_TOKEN }}
+
+      # 2. Atualiza o campo Status para "In Progress"
+      - name: Mudar Status para "In Progress"
+        uses: nipe0324/update-project-v2-item-field@v2.0.2
+        with:
+          project-url: https://github.com/orgs/Sidereus-Team/projects/1
+          github-token: ${{ secrets.PROJECT_TOKEN }}
+          field-name: "Status"           # Nome exato do campo no seu Project
+          field-value: "🔨 Em progresso"     # Nome exato da opção (verifique no seu board!)
