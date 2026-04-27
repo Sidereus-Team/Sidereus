@@ -11,7 +11,7 @@ jobs:
     steps:
       # 1. Garante que a issue esteja no Project (se ainda não estiver, adiciona)
       - name: Adicionar issue ao Project (se necessário)
-        uses: actions/add-to-project@v1
+        uses: actions/add-to-project@v0.5.0
         with:
           project-url: https://github.com/orgs/Sidereus-Team/projects/1
           # Exemplo: https://github.com/users/voiwd/projects/1
